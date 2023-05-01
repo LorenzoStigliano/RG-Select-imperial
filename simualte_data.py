@@ -46,5 +46,5 @@ with open('/vol/bitbucket/ls1121/data/Demo/Demo_labels', 'wb') as f:
     pickle.dump(labels, f)
 print("s")
 
-print(type(adjs), adjs.shape)
-print(type(labels), adjs.labels)
+print(type(adjs), adjs)
+print(type(labels), labels)
