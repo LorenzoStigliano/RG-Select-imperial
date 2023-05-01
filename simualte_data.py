@@ -42,6 +42,6 @@ adjs = adjs_0 + adjs_1
 labels = [0] * subjects + [1] * subjects
 with open('/vol/bitbucket/ls1121/data/Demo/Demo_edges', 'wb') as f:
     pickle.dump(adjs, f)
-with open('/vol/bitbucket/ls1121data/Demo/Demo_labels', 'wb') as f:
+with open('/vol/bitbucket/ls1121/data/Demo/Demo_labels', 'wb') as f:
     pickle.dump(labels, f)
 print("s")
