@@ -45,3 +45,6 @@ with open('/vol/bitbucket/ls1121/data/Demo/Demo_edges', 'wb') as f:
 with open('/vol/bitbucket/ls1121/data/Demo/Demo_labels', 'wb') as f:
     pickle.dump(labels, f)
 print("s")
+
+print(type(adjs), adjs.shape)
+print(type(labels), adjs.labels)
